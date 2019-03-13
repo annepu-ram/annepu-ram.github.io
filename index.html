@@ -101,7 +101,7 @@
                     <div class="text">
                         <h3>sentiment analysis</h3>
                         <p>a sentiment and word collocation analysis of Warren buffett letters</p>
-                        <button onclick="window.location.href =sentiment.html">View</button>
+                        <a href ="sentiment.html">View</a>
                     </div>
                 </article>
                 <article class="card">
@@ -327,6 +327,7 @@
             font-family: 'Raleway', sans-serif;
             text-transform: uppercase;
             color: #d2d2d2;
+            text-emphasis: none;
             letter-spacing: 0.2em;
             font-style: normal;
         }
@@ -334,6 +335,7 @@
         .card p {
             font-family: 'Raleway', sans-serif;
             font-size: 18px;
+            text-emphasis: none;
             color: #d2d2d2;
             font-style: normal;
         }
@@ -344,14 +346,15 @@
         }
 
         .card .text {
-
             padding: 0 20px 20px;
         }
 
-        .card .text>button {
+        .card .text>a {
             font-size: 18px;
             background: #59677e;
             border: 0;
+            text-decoration: none;
+            
             border-radius: 4%;
             color: white;
             padding: 10px;
