@@ -1030,7 +1030,7 @@ btwnness.df.names%&gt;%arrange(desc(values))</code></pre>
 <p>lets geocode and see what inbetweenness represent in this context of brike sharing service on a map.</p>
 <pre class="r"><code>btwnness.df.names$from_station_name &lt;- paste0(btwnness.df.names$from_station_name, &quot;, chicago, illinois, united states&quot;)
 
-register_google(key = &quot;AIzaSyDYOJWvETeZ-nLXhqJK_V7NoQeLYR_nXko&quot;)
+register_google(key = &quot;MY_KEY&quot;)
 
 geodata_1&lt;-mutate_geocode(btwnness.df.names,from_station_name)
 
